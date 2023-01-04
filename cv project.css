@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding : 20px;
+
+}
+.image{
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+.header-bio{
+    float: left;
+    padding : 30px;
+
+}
+h1,h2,h3{
+    color: #11999e; 
+
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight:bold; 
+
+}
+.contact a:hover{
+    text-decoration: dotted;
+    color: chocolate;
+}
+.div-class{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+   
+}
+#personal{
+    float: left;
+}
+.content{
+    margin: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float:left;
+    
+}
+.right-div {
+    width:70%;
+    float:right;
+
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px;
+}
+#work{
+    float: left;
+
+}
+.workplace{
+    margin: 30px;
+}
+.right-div1{
+    width: 30%;
+    float: left;
+}
+.right-div2{
+    width: 30%;
+    float: right;
+}
+.back{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+}
+.back a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.back a:hover{
+    color: goldenrod;
+
+}
+.back p{
+    padding: 10px;
+    color: aqua;
+    text-align: center;
+}
